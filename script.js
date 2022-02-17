@@ -1,5 +1,7 @@
 //FUNÇÃO PARA GERAR TABUADA
 
+var entrada = window.prompt("Digite um numero:");
+
 let i = 0;
 function tabuada(mensagem, numero) {
   console.log(mensagem, numero);
@@ -10,5 +12,5 @@ function tabuada(mensagem, numero) {
   }
 }
 
-tabuada("TABUADA DO", 9);
+tabuada("TABUADA DO", entrada);
 //INSERIR MENSAGEM, INSERIR NUMERO PARA TABUADA
